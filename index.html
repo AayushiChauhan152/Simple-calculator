@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    </head>
+  <body>
+    <center>
+      <fieldset>
+        <legend>calculator</legend>
+        <h2>simple calculator</h2>
+        <h4>Enter 1st number:</h4>
+        <input type="number" name="frst" id="frst" class="input"/>
+        <br />
+        <h4>Enter 2nd number:</h4>
+        <input type="number" name="second" id="second" class="input"/>
+        <br />
+        <br />
+        <select name="" id="op">
+          <option value="">Select operator</option>
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <br />
+        <br />
+        <button onclick="calc()">Calculate</button>
+        <button onclick="clearAll()">reset</button>
+        <br />
+        <br />
+        <input type="text"  id="res" readonly="" class="input"/>
+      </fieldset>
+    </center>
+  </body>
