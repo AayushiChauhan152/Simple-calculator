@@ -1,0 +1,24 @@
+      body{
+        padding-top: 100px;
+
+      }
+      #op {
+        font-size: 15px;
+        font-weight: bold;
+      }
+      button {     
+        font-size: 15px;
+        font-weight: bold;
+      }
+      #res {
+        font-size: 15px;
+      }
+      fieldset {
+        background-color: lightgray;
+        width: 414px;
+        padding-left: 24px;
+        border: 2px solid black;
+      }
+      legend {
+        color: rgb(84, 81, 81);
+      }
